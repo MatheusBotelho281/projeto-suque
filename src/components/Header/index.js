@@ -1,8 +1,9 @@
 import React from 'react'
 import HeaderLink from '../HeaderLink'
-import {InnerWrapper, Logo, Wrapper } from './styles'
+import {InnerWrapper, Logo, TextWrapper, Wrapper } from './styles'
 import styled from 'styled-components'
 import Menu from '../HeaderMenu'
+import HeaderText from '../TextHeader'
 
 const Lupa = styled.img`
 height: 20px;
@@ -33,6 +34,7 @@ export default function Header() {
         </div>
         <Menu />
       </InnerWrapper>
+      <HeaderText />
     </Wrapper>
   )
 }

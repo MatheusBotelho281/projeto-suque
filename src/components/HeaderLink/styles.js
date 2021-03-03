@@ -10,7 +10,7 @@ transition: 0.6s;
 margin: 1.6rem;
 font-weight: 600;
 :hover{
-  color: gray;
+  color: #e0e0e0;
 }
 @media only screen and (max-width: 1024px){
   display:none;
