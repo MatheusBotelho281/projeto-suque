@@ -43,7 +43,7 @@ div{
   width:100%;
   padding: 1rem;
   :hover{
-    background: #0000cc;
+    background: #0e10da;
   }
 }
 `

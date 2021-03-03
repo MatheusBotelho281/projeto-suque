@@ -20,16 +20,16 @@ color: white;
 font-family: "Merriweather", Sans-serif;
 font-size: 80px;
 font-weight: 400;
-@media only screen and (max-width: 320px){
-  font-size: 25px;
-}
-@media only screen and (max-width: 370px){
-  font-size: 30px;
+@media only screen and (max-width: 600px){
+  font-size: 50px;
 }
 @media only screen and (max-width: 500px){
   font-size: 40px;
 }
-@media only screen and (max-width: 600px){
-  font-size: 50px;
+@media only screen and (max-width: 370px){
+  font-size: 35px;
+}
+@media only screen and (max-width: 320px){
+  font-size: 30px;
 }
 `
