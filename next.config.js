@@ -1,10 +1,10 @@
-// module.exports = {
-//   assetPrefix: './',
-//   basePath: '/suque',
-//   // trailingSlash: true,
-//   exportPathMap: function () {
-//     return {
-//       '/': { page: '/' }
-//     }
-//   }
-// }
+module.exports = {
+  assetPrefix: './',
+  basePath: '/suque',
+  // trailingSlash: true,
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' }
+    }
+  }
+}
