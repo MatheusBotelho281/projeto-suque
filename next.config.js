@@ -1,10 +1,11 @@
 module.exports = {
   assetPrefix: './',
   basePath: '/suque',
-  // trailingSlash: true,
+  trailingSlash: true,
   exportPathMap: function () {
     return {
-      '/': { page: '/' }
+      '/': { page: '/' },
+      '/contato': { page: '/contato' }
     }
   }
 }

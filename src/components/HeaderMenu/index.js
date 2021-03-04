@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { WrapperMenu, MenuButton, MenuItems } from './styles'
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const Lupa = styled.img`
 height: 20px;
@@ -50,7 +51,7 @@ console.log(isMenuOpened)
          bottom={isMenuOpened ? '-17.8rem' : '0'}>
         <div onClick={() => choosePage('home')}
         style={linkSelected == 'home' ? Selected : null}>
-          <a>Home</a>
+          <Link href='/'><a>Home</a></Link>
         </div>
         <div onClick={() => choosePage('sobre')}
         style={linkSelected == 'sobre' ? Selected : null}>
@@ -66,7 +67,7 @@ console.log(isMenuOpened)
         </div>
         <div onClick={() => choosePage('contato')} 
         style={linkSelected == 'contato' ? Selected : null}>
-          <a>Contato</a>
+          <Link href='/contato'><a>Contato</a></Link>
         </div>
         </MenuItems>
       </Wrapper>

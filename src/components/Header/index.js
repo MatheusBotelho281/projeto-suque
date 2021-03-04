@@ -4,6 +4,7 @@ import {InnerWrapper, Logo, TextWrapper, Wrapper } from './styles'
 import styled from 'styled-components'
 import Menu from '../HeaderMenu'
 import HeaderText from '../TextHeader'
+import Link from 'next/link'
 
 const Lupa = styled.img`
 height: 20px;
@@ -29,7 +30,7 @@ export default function Header() {
           <HeaderLink nomeOpcao='Sobre' />
           <HeaderLink nomeOpcao='Produções' />
           <HeaderLink nomeOpcao='Roteiro' />
-          <HeaderLink nomeOpcao='Contato' />
+          <HeaderLink pageUrl='/contato' nomeOpcao='Contato' />
           <Lupa src='./img/lupa.png' />
         </div>
         <Menu />

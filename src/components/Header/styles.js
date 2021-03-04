@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 display: flex;
 flex-direction: column;
-height: 62vh;
+height: auto;
 width: auto;
 background: url('./img/bg-header.png') no-repeat;
 background-size: cover;
