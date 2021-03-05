@@ -1,5 +1,6 @@
 import React from 'react'
 import { BlueButton, Wrapper } from './styles'
+import Link from 'next/link'
 
 export default function BBottom() {
   return (

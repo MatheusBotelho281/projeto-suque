@@ -51,24 +51,24 @@ console.log(isMenuOpened)
          bottom={isMenuOpened ? '-17.8rem' : '0'}>
         <div onClick={() => choosePage('home')}
         style={linkSelected == 'home' ? Selected : null}>
-          <Link href='/'><a>Home</a></Link>
+          <a>Home</a>
         </div>
         <div onClick={() => choosePage('sobre')}
         style={linkSelected == 'sobre' ? Selected : null}>
           <a>Sobre</a>
         </div>
-        <div onClick={() => choosePage('producoes')}
+        <Link href='/producoes'><div onClick={() => choosePage('producoes')}
         style={linkSelected == 'producoes' ? Selected : null}>
           <a>Produções</a>
-        </div>
+        </div></Link>
         <div onClick={() => choosePage('roteiro')}
         style={linkSelected == 'roteiro' ? Selected : null}>
           <a>Roteiro</a>
         </div>
-        <div onClick={() => choosePage('contato')} 
+        <Link href='/contato'><div onClick={() => choosePage('contato')} 
         style={linkSelected == 'contato' ? Selected : null}>
-          <Link href='/contato'><a>Contato</a></Link>
-        </div>
+          <a>Contato</a>
+        </div></Link>
         </MenuItems>
       </Wrapper>
     </WrapperMenu>

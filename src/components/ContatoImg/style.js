@@ -15,7 +15,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-h2{
+.h2{
   color: white;
   position: absolute;
   font-family: "Merriweather", Sans-serif;
@@ -83,7 +83,7 @@ p{
     display: none;
   }
 }
-.bluecube{
+.cuboAzul{
   position: absolute;
   width: 10%;
   height: 30.5vh;

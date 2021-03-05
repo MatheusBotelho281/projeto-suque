@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderLink from '../HeaderLink'
 import {InnerWrapper, Logo, TextWrapper, Wrapper } from './styles'
 import styled from 'styled-components'
-import Menu from '../HeaderMenuNoBg'
+import Menu from '../HeaderMenuNoBg1'
 import HeaderText from '../TextHeader'
 import Link from 'next/link'
 import ImageContato from '../ContatoImg'
@@ -31,12 +31,11 @@ export default function Header() {
           <HeaderLink nomeOpcao='Sobre'/>
           <HeaderLink pageUrl='/producoes' nomeOpcao='Produções'/>
           <HeaderLink nomeOpcao='Roteiro'/>
-          <HeaderLink nomeOpcao='Contato'/>
+          <HeaderLink pageUrl='/contato' nomeOpcao='Contato'/>
           <Lupa1 src='./img/lupa.png' />
         </div>
         <Menu />
       </InnerWrapper>
-      <ImageContato />
     </Wrapper>
   )
 }

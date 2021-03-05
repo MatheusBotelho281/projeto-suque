@@ -25,7 +25,7 @@ padding-right: 60px;
 export default function Menu() {
 
   const [isMenuOpened, setIsMenuOpened] = useState(false)
-  const [linkSelected, setLinkSelected] = useState('contato')
+  const [linkSelected, setLinkSelected] = useState('producoes')
   console.log(isMenuOpened)
   function choosePage(page) {
     setLinkSelected(page)
@@ -49,7 +49,7 @@ export default function Menu() {
         <MenuItems
           height={isMenuOpened ? '17.8rem' : '0'}
           bottom={isMenuOpened ? '-17.8rem' : '0'}>
-          <Link href='/'><div onClick={() => choosePage('home')}
+          <Link href= '/'><div onClick={() => choosePage('home')}
             style={linkSelected == 'home' ? Selected : null}>
             <a>Home</a>
           </div></Link>
@@ -57,10 +57,10 @@ export default function Menu() {
             style={linkSelected == 'sobre' ? Selected : null}>
             <a>Sobre</a>
           </div>
-          <Link href='/producoes'><div onClick={() => choosePage('producoes')}
+          <div onClick={() => choosePage('producoes')}
             style={linkSelected == 'producoes' ? Selected : null}>
-            <a>Produções</a>
-          </div></Link>
+            <Link href='/producoes'><a>Produções</a></Link>
+          </div>
           <div onClick={() => choosePage('roteiro')}
             style={linkSelected == 'roteiro' ? Selected : null}>
             <a>Roteiro</a>

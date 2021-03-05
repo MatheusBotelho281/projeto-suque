@@ -28,7 +28,7 @@ export default function Header() {
         <div>
           <HeaderLink nomeOpcao='Home' />
           <HeaderLink nomeOpcao='Sobre' />
-          <HeaderLink nomeOpcao='Produções' />
+          <HeaderLink pageUrl='/producoes' nomeOpcao='Produções' />
           <HeaderLink nomeOpcao='Roteiro' />
           <HeaderLink pageUrl='/contato' nomeOpcao='Contato' />
           <Lupa src='./img/lupa.png' />
