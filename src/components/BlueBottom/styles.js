@@ -34,7 +34,9 @@ font-family: 'Lato', Sans-serif;
 text-transform: uppercase;
 font-weight: 700;
 font-size: 16px;
+transition: all 0.2s;
 :hover{
   background-color: #0e0fc1;
+  transform: translateY(8%);
 }
 `

@@ -8,7 +8,7 @@ align-items: center;
 justify-content: center;
 padding-top: 185px;
 transition: 0.4s;
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
   padding-top: 30px;
 }
 `
@@ -26,18 +26,25 @@ h1{
   font-size: 40px;
   font-weight: 400;
   text-align: left;
-  @media only screen and (max-width: 1300px){
+  @media only screen and (max-width: 1366px) and (max-height: 768px){
     font-size: 35px;
   }
   @media only screen and (max-width: 1024px){
     font-size: 35px;
   }
   @media only screen and (max-width: 768px){
-    font-size: 35px;
+    font-size: 30px;
+    padding-bottom: 50px;
   }
   @media only screen and (max-width: 360px){
     font-size: 25px;
   }
+  
+}
+@media only screen and (max-width: 1366px) and (max-height: 768px){
+  padding-right: 18%;
+  padding-left: 18%;
+  bottom: -10%;
 }
 @media only screen and (max-width: 1024px){
   padding-right: 15%;
@@ -52,22 +59,27 @@ h1{
 @media only screen and (max-width: 543px){
   padding-right: 13%;
   padding-left: 13%;
-  bottom: 5%;
+  bottom: 12%;
 }
 @media only screen and (max-width: 414px){
   padding-right: 11%;
   padding-left: 11%;
-  bottom: 9%;
+  bottom: 10%;
 }
 @media only screen and (max-width: 375px){
   padding-right: 9%;
   padding-left: 9%;
-  bottom: 7%;
+  bottom: 3%;
+}
+@media only screen and (max-width: 320px){
+  padding-right: 9%;
+  padding-left: 9%;
+  bottom: -5%;
 }
 @media only screen and (max-width: 280px){
   padding-right: 9%;
   padding-left: 9%;
-  bottom: 15%;
+  bottom: 7.5%;
 }
 `
 
@@ -111,6 +123,11 @@ position: absolute;
 right: 26%;
 bottom: -30%;
 transition: 0.4s;
+@media only screen and (max-width: 1366px) and (max-height: 768px){
+  width: 210px;
+  right: 15%;
+  bottom: -70%;
+}
 @media only screen and (max-width: 1024px){
   width: 210px;
   right: 15%;

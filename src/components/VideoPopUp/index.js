@@ -1,4 +1,5 @@
 import React from 'react'
+import Video from '../Video'
 import { Wrapper, InnerWrapper, DashedBorder, VideoImage, BlueBox, PlayHover } from './styles'
 
 export default function VideoPopUp() {
@@ -9,7 +10,8 @@ export default function VideoPopUp() {
         <BlueBox />
         <img className='video' src='./img/comedy-rio.jpg' />
         <PlayHover>
-        <img className='play' src='./img/play-button.png' />
+
+          <img className='play' src='./img/play-button.png' />
         </PlayHover>
       </VideoImage>
       <InnerWrapper>
