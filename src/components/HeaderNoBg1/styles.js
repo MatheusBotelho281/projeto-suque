@@ -29,7 +29,7 @@ transition: 0.4s;
 `
 
 export const Logo = styled.img`
-width:77px;
+width:120px;
 height:auto;
 margin:1.5rem 1rem;
 transition: 0.3s;

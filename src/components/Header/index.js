@@ -23,7 +23,7 @@ export default function Header() {
     <Wrapper>
       <InnerWrapper>
         <div>
-          <Logo src='./img/logo.png' alt='Suque Produções' />
+          <Logo src='./img/logoBgBlack.png' alt='Suque Produções' />
         </div>
         <div>
           <HeaderLink nomeOpcao='Home' />

@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-height: 75vh;
+height: auto;
+min-height: 45vh;
 font-family: "Lato", Sans-serif;
 font-size: 15px;
 font-weight: 400;
@@ -11,8 +12,10 @@ align-items: center;
 justify-content: center;
 color: white;
 flex-direction: column;
+border-bottom: 1px solid gray;
+border-style: dotted;
 @media only screen and (max-width: 700px){
-  height: 100vh;
+  height: auto;
 }
 
 }
@@ -30,7 +33,7 @@ flex-direction: column;
     margin-top: 50px;
     margin-right: 7px;
     margin-left: 7px;
-    border: transparent;
+    border: 1px solid black;
     font-family: "Lato", Sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -65,7 +68,7 @@ flex-direction: column;
     margin-top: 15px;
     margin-right: 7px;
     margin-left: 7px;
-    border: transparent;
+    border: 1px solid black;
     font-family: "Lato", Sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -92,7 +95,7 @@ flex-direction: column;
     margin-top: 15px;
     margin-right: 7px;
     margin-left: 7px;
-    border: transparent;
+    border: 1px solid black;
     padding-top: 8px;
     font-family: "Lato", Sans-serif;
     font-size: 15px;

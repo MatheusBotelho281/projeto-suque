@@ -45,7 +45,7 @@ export default function Menu() {
         <MenuButton onClick={ToggleMenu}>
           <img src={isMenuOpened ? './img/close.png' : './img/menu.png'} alt='Menu' />
         </MenuButton>
-        <Lupa src='./img/lupa.png' />
+        <Lupa src='./img/lupa-preta.png' />
         <MenuItems
           height={isMenuOpened ? '17.8rem' : '0'}
           bottom={isMenuOpened ? '-17.8rem' : '0'}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderLink from '../HeaderLink'
+import HeaderLink from '../HeaderLinkBlack'
 import {InnerWrapper, Logo, TextWrapper, Wrapper } from './styles'
 import styled from 'styled-components'
 import Menu from '../HeaderMenuNoBg'
@@ -32,7 +32,7 @@ export default function Header() {
           <HeaderLink pageUrl='/producoes' nomeOpcao='Produções'/>
           <HeaderLink nomeOpcao='Roteiro'/>
           <HeaderLink nomeOpcao='Contato'/>
-          <Lupa1 src='./img/lupa.png' />
+          <Lupa1 src='./img/lupa-preta.png' />
         </div>
         <Menu />
       </InnerWrapper>

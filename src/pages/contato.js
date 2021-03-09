@@ -6,7 +6,7 @@ import ContatoForm from '../components/Contato'
 
 export default function contato() {
   return (
-    <div style={{backgroundColor:'black'}}>
+    <div>
       <HeaderNoBg />
       <Info />
       <ContatoForm />

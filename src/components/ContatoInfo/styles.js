@@ -13,7 +13,7 @@ transition: all 0.2s;
   height: 75vh;
 }
 div{
-  color: white;
+  color: black;
   padding-right: 50px;
   @media only screen and (max-width: 580px){
     padding: 0;

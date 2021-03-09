@@ -5,6 +5,7 @@ display: flex;
 width: 100%;
 height:60vh;
 align-items: center;
+flex-direction: column;
 justify-content: center;
 padding-top: 185px;
 transition: 0.4s;
@@ -14,6 +15,7 @@ transition: 0.4s;
 `
 export const InnerWrapper = styled.div`
 display: flex;
+flex-direction: column;
 width: 100%;
 padding-right: 27.7%;
 padding-left: 27.7%;
@@ -21,7 +23,7 @@ position: absolute;
 text-align: left;
 bottom: 3%;
 h1{
-  color: white;
+  color: black;
   font-family: "Merriweather", Sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -30,7 +32,7 @@ h1{
     font-size: 35px;
   }
   @media only screen and (max-width: 1024px){
-    font-size: 35px;
+    font-size: 33px;
   }
   @media only screen and (max-width: 768px){
     font-size: 30px;
@@ -216,7 +218,7 @@ cursor: pointer;
 export const DashedBorder = styled.div`
 width: 175px;
 height: 250px;
-border: 2px solid white;
+border: 2px solid gray;
 border-style: dashed;
 display: flex;
 position: absolute;
