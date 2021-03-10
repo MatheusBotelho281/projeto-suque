@@ -7,6 +7,7 @@ height: auto;
 width: auto;
 background: url('./img/bg-header.png') no-repeat;
 background-size: cover;
+padding-bottom: 120px;
 `
 
 export const InnerWrapper = styled.div`

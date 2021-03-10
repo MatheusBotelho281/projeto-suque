@@ -176,7 +176,7 @@ export const Video = styled.img`
 width: 100%;
 height: auto;
 cursor: pointer;
-border-top: 10px solid;
+border-top: 3px solid;
 transition: 0.2s;
 :hover{
   opacity: 0.8;
@@ -196,7 +196,7 @@ height: 100%;
 @media only screen and (max-width: 1200px){
   width: 100%;
   height: 100%;
-  border-top: 8px solid;
+  border-top: 3px solid;
 }
 @media only screen and (max-width: 726px){
   width: 100%;

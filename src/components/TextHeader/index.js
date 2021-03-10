@@ -6,10 +6,10 @@ export default function HeaderText() {
   return (
     <Wrapper>
      <TextTittle>
-        Produções
+     
      </TextTittle>
      <TextBottom>
-       Conheça a Suque
+      
      </TextBottom>
     </Wrapper>
   )

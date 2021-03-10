@@ -5,29 +5,29 @@ export default function ContatoForm() {
   return (
     <Wrapper>
       <div className='titulo'>
-        Fill out the form below and we will
-        contact you as soon as possible
+        Preencha o formulário abaixo com seus dados e entraremos em contato
+        o mais rápido possível.
       </div>
       <form>
         <div className='inputs1'>
-          <input placeholder='Your Name'></input>
-          <input placeholder='Email Address'></input>
-          <input placeholder='Phone Number'></input>
+          <input placeholder='Seu Nome'></input>
+          <input placeholder='Seu Email'></input>
+          <input placeholder='Seu Telefone'></input>
         </div>
         <div className='inputs2'>
           <select>
             <option>
-              Choose an Option
+              Opção
             </option>
           </select>
           <select>
             <option>
-              Choose an Option
+              Opção
             </option>
           </select>
         </div>
         <div className='inputs3'>
-          <textarea placeholder='Tell us about your project'>
+          <textarea placeholder='Conte-nos mais sobre seu projeto'>
           </textarea>
         </div>
       </form>

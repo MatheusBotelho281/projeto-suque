@@ -6,10 +6,9 @@ export default function ImageContato() {
     <Wrapper>
       <BG>
         <TittleWrapper>
-          <h2 className='h2'>Contact us</h2>
-          <p>Let’s talk about your flooring project.
-          Contact us for a free consultation and we’ll be
-          happy to answer all of your décor questions.</p>
+          <h2 className='h2'>Contate-nos</h2>
+          <p>Vamos conversar sobre seu projeto.
+          Nos contate para uma consultoria gratuita e lhe ajudaremos com seu projeto.</p>
           <img className='image1' src='./img/upperimg1.jpg' />
           <img className='image' src='./img/upperimg.jpg' />
           <img className='cuboAzul' src='./img/blue-cube.jpg' />

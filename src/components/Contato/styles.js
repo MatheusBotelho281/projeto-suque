@@ -45,6 +45,7 @@ border-style: dotted;
 }
 .titulo{
   width: 260px;
+  color: black;
   text-align: center;
   font-family: "Lato", Sans-serif;
   font-size: 15px;
