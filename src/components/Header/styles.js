@@ -3,11 +3,11 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 display: flex;
 flex-direction: column;
-height: auto;
+height: 75vh;
 width: auto;
 background: url('./img/bg-header.png') no-repeat;
 background-size: cover;
-padding-bottom: 120px;
+padding-bottom: 80px;
 `
 
 export const InnerWrapper = styled.div`

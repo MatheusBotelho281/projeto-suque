@@ -13,8 +13,8 @@ export const InnerWrapper = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
 height: auto;
+flex-direction: column;
 text-align: center;
 margin-right: 12%;
 margin-left: 12%;
@@ -31,5 +31,5 @@ h1{
   font-family: "Merriweather", Sans-serif;
   font-size: 30px;
   font-weight: 500;
-} 
+}
 `

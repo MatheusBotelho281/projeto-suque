@@ -53,18 +53,18 @@ export default function Menu() {
             style={linkSelected == 'home' ? Selected : null}>
             <a>Home</a>
           </div></Link>
-          <div onClick={() => choosePage('sobre')}
+          <Link href='/sobre'><div onClick={() => choosePage('sobre')}
             style={linkSelected == 'sobre' ? Selected : null}>
             <a>Sobre</a>
-          </div>
+          </div></Link>
           <Link href='/producoes'><div onClick={() => choosePage('producoes')}
             style={linkSelected == 'producoes' ? Selected : null}>
             <a>Produções</a>
           </div></Link>
-          <div onClick={() => choosePage('roteiro')}
+          <Link href='/roteiro'><div onClick={() => choosePage('roteiro')}
             style={linkSelected == 'roteiro' ? Selected : null}>
             <a>Roteiro</a>
-          </div>
+          </div></Link>
           <Link href='/contato'><div onClick={() => choosePage('contato')}
             style={linkSelected == 'contato' ? Selected : null}>
             <a>Contato</a>

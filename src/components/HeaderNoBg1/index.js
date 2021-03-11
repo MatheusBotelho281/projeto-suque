@@ -17,8 +17,7 @@ margin: 0 1rem;
 }
 `
 
-export default function Header() {
-
+export default function Header(props) {
 
   return (
     <Wrapper>
@@ -27,14 +26,14 @@ export default function Header() {
           <Logo src='./img/logo.png' alt='Suque Produções' />
         </div>
         <div>
-          <HeaderLink nomeOpcao='Home'/>
-          <HeaderLink nomeOpcao='Sobre'/>
+          <HeaderLink style={{color: 'red'}} nomeOpcao='Home'/>
+          <HeaderLink pageUrl='/sobre' nomeOpcao='Sobre'/>
           <HeaderLink pageUrl='/producoes' nomeOpcao='Produções'/>
-          <HeaderLink nomeOpcao='Roteiro'/>
+          <HeaderLink pageUrl='/roteiro' nomeOpcao='Roteiro'/>
           <HeaderLink pageUrl='/contato' nomeOpcao='Contato'/>
           <Lupa1 src='./img/lupa-preta.png' />
         </div>
-        <Menu />
+        <Menu pag={props.page} />
       </InnerWrapper>
     </Wrapper>
   )

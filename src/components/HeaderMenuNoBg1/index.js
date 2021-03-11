@@ -22,10 +22,10 @@ padding-right: 60px;
 }
 `
 
-export default function Menu() {
+export default function Menu(props) {
 
   const [isMenuOpened, setIsMenuOpened] = useState(false)
-  const [linkSelected, setLinkSelected] = useState('producoes')
+  const [linkSelected, setLinkSelected] = useState(props.pag)
   console.log(isMenuOpened)
   function choosePage(page) {
     setLinkSelected(page)
@@ -46,25 +46,25 @@ export default function Menu() {
           <img src={isMenuOpened ? './img/close.png' : './img/menu.png'} alt='Menu' />
         </MenuButton>
         <Lupa src='./img/lupa-preta.png' />
-        <MenuItems
+        <MenuItems 
           height={isMenuOpened ? '17.8rem' : '0'}
           bottom={isMenuOpened ? '-17.8rem' : '0'}>
           <Link href= '/'><div onClick={() => choosePage('home')}
             style={linkSelected == 'home' ? Selected : null}>
             <a>Home</a>
           </div></Link>
-          <div onClick={() => choosePage('sobre')}
+          <Link href='/sobre'><div onClick={() => choosePage('sobre')}
             style={linkSelected == 'sobre' ? Selected : null}>
             <a>Sobre</a>
-          </div>
-          <div onClick={() => choosePage('producoes')}
+          </div></Link>
+          <Link href='/producoes'><div onClick={() => choosePage('producoes')}
             style={linkSelected == 'producoes' ? Selected : null}>
-            <Link href='/producoes'><a>Produções</a></Link>
-          </div>
-          <div onClick={() => choosePage('roteiro')}
+            <a>Produções</a>
+          </div></Link>
+          <Link href='/roteiro'><div onClick={() => choosePage('roteiro')}
             style={linkSelected == 'roteiro' ? Selected : null}>
             <a>Roteiro</a>
-          </div>
+          </div></Link>
           <Link href='/contato'><div onClick={() => choosePage('contato')}
             style={linkSelected == 'contato' ? Selected : null}>
             <a>Contato</a>
