@@ -72,6 +72,9 @@ cursor: pointer;
   top: 3%;
   right: 10%;
 }
+@media only screen and (max-height: 755px){
+  top: 20%;
+}
 @media only screen and (max-width: 640px){
   width: 15px;
   top: 3%;

@@ -4,11 +4,17 @@ export const Wrapper = styled.div`
 display: flex;
 flex-wrap: wrap;
 transition: all 0.2s;
+.barraPreta{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 25px;
+}
 @media only screen and (min-width: 738px){
   display: none;
 }
 .slider{
-  height: 500px;
+  height: 1015px;
   a.nextButton, a.previousButton{
     background-color: rgba(255,255,255,0.1);
     border-radius: 30px;
@@ -17,157 +23,157 @@ transition: all 0.2s;
     }
   }
   @media only screen and (max-width: 730px){
-    height: 490px;
+    height: 1015px;
   }
   @media only screen and (max-width: 722px){
-    height: 484px;
+    height: 1000px;
   }
   @media only screen and (max-width: 714px){
-    height: 479px;
+    height: 995px;
   }
   @media only screen and (max-width: 706px){
-    height: 474px;
+    height: 980px;
   }
   @media only screen and (max-width: 698px){
-    height: 468px;
+    height: 965px;
   }
   @media only screen and (max-width: 690px){
-    height: 461px;
+    height: 945px;
   }
   @media only screen and (max-width: 682px){
-    height: 457px;
+    height: 935px;
   }
   @media only screen and (max-width: 674px){
-    height: 451px;
+    height: 927px;
   }
   @media only screen and (max-width: 666px){
-    height: 447px;
+    height: 916px;
   }
   @media only screen and (max-width: 658px){
-    height: 441px;
+    height: 905px;
   }
   @media only screen and (max-width: 650px){
-    height: 436px;
+    height: 890px;
   }
   @media only screen and (max-width: 642px){
-    height: 431px;
+    height: 885px;
   }
   @media only screen and (max-width: 634px){
-    height: 427px;
+    height: 870px;
   }
   @media only screen and (max-width: 626px){
-    height: 422px;
+    height: 855px;
   }
   @media only screen and (max-width: 618px){
-    height: 416px;
+    height: 840px;
   }
   @media only screen and (max-width: 610px){
-    height: 412px;
+    height: 825px;
   }
   @media only screen and (max-width: 602px){
-    height: 405px;
+    height: 810px;
   }
   @media only screen and (max-width: 594px){
-    height: 399px;
+    height: 800px;
   }
   @media only screen and (max-width: 586px){
-    height: 393px;
+    height: 790px;
   }
   @media only screen and (max-width: 576px){
-    height: 387px;
+    height: 780px;
   }
   @media only screen and (max-width: 570px){
-    height: 380px;
+    height: 770px;
   }
   @media only screen and (max-width: 562px){
-    height: 375px;
+    height: 765px;
   }
   @media only screen and (max-width: 554px){
-    height: 370px;
+    height: 760px;
   }
   @media only screen and (max-width: 546px){
-    height: 365px;
+    height: 750px;
   }
   @media only screen and (max-width: 538px){
-    height: 360px;
+    height: 740px;
   }
   @media only screen and (max-width: 530px){
-    height: 355px;
+    height: 730px;
   }
   @media only screen and (max-width: 522px){
-    height: 350px;
+    height: 712px;
   }
   @media only screen and (max-width: 514px){
-    height: 345px;
+    height: 700px;
   }
   @media only screen and (max-width: 506px){
-    height: 340px;
+    height: 690px;
   }
   @media only screen and (max-width: 498px){
-    height: 335px;
+    height: 680px;
   }
   @media only screen and (max-width: 490px){
-    height: 330px;
+    height: 670px;
   }
   @media only screen and (max-width: 482px){
-    height: 325px;
+    height: 660px;
   }
   @media only screen and (max-width: 474px){
-    height: 320px;
+    height: 650px;
   }
   @media only screen and (max-width: 466px){
-    height: 315px;
+    height: 635px;
   }
   @media only screen and (max-width: 458px){
-    height: 310px;
+    height: 625px;
   }
   @media only screen and (max-width: 450px){
-    height: 305px;
+    height: 615px;
   }
   @media only screen and (max-width: 442px){
-    height: 300px;
+    height: 605px;
   }
   @media only screen and (max-width: 434px){
-    height: 295px;
+    height: 595px;
   }
   @media only screen and (max-width: 426px){
-    height: 290px;
+    height: 585px;
   }
   @media only screen and (max-width: 418px){
-    height: 285px;
+    height: 585px;
   }
   @media only screen and (max-width: 410px){
-    height: 280px;
+    height: 550px;
   }
   @media only screen and (max-width: 402px){
-    height: 275px;
+    height: 540px;
   }
   @media only screen and (max-width: 394px){
-    height: 270px;
+    height: 525px;
   }
   @media only screen and (max-width: 386px){
-    height: 265px;
+    height: 520px;
   }
   @media only screen and (max-width: 378px){
-    height: 260px;
+    height: 530px;
   }
   @media only screen and (max-width: 370px){
-    height: 255px;
+    height: 495px;
   }
   @media only screen and (max-width: 362px){
-    height: 250px;
+    height: 510px;
   }
   @media only screen and (max-width: 354px){
-    height: 245px;
+    height: 470px;
   }
   @media only screen and (max-width: 346px){
-    height: 240px;
+    height: 465px;
   }
   @media only screen and (max-width: 338px){
-    height: 228px;
+    height: 455px;
   }
   @media only screen and (max-width: 280px){
-    height: 200px;
+    height: 400px;
   }
 
 }

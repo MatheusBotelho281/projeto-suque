@@ -19,7 +19,7 @@ export default function VideoBoxes() {
     <Wrapper>
       {videoPopUp && <PopUp urlVideo={urlPopUp} close={() => setVideoPopUp(false)} /> }
       <Slider>
-        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/6Fkn-SW-91M')}>
+        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')}>
           <Video src='./img/mulheres-cesta.jpg' />
         </LinkVideo>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/jF5h_xM5hhM')}>
@@ -29,6 +29,7 @@ export default function VideoBoxes() {
           <Video src='./img/rua-selva.jpg' />
         </LinkVideo>
       </Slider>
+      <div className='barraPreta' />
       <Slider>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/faJJqidkyEs')}>
           <Video src='./img/terapia-riso.jpg' />

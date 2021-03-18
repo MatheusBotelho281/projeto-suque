@@ -88,6 +88,7 @@ border-style: dotted;
   textarea{
     resize: vertical;
     max-height: 500px;
+    min-height: 40px;
     padding-left: 10px;
     width: 630px;
     height: 40px;

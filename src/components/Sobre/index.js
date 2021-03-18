@@ -7,7 +7,7 @@ export default function Sobre() {
       <InnerWrapper>
         <div className='imagens'>
           <img className='red' src='./img/red-dashed.png ' />
-          <img className='img' src='./img/terapia-riso.jpg' />
+          <img className='img' src='./img/placeholder1.jpg' />
         </div>
         <div>
           <h3 className='since'>

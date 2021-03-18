@@ -8,12 +8,15 @@ export default function producoes() {
   return (
     <>
     <HeaderNoBg page="producoes" />
-    <Text titulo='Produções' textoApresentacao=' Conspiração é a produtora independente da América Latina mais indicada ao 
-    Emmy Internacional. Vencedora do maior prêmio da TV mundial com ​A Mulher Invisível (Melhor Comédia), 
-    é também realizadora de séries como ​Sob Pressão (TV Globo), ​Magnífica 70 (HBO), Reality Z (Netflix) 
-    e 1​ Contra Todos (Fox). No cinema, participou dos festivais de Cannes, Berlim, Veneza, Toronto e foi 
-    responsável por sucessos de bilheteria como ​Vai Que Cola,​ ​Eu Tu Eles e 2​ Filhos de Francisco — 
-    indicação oficial do Brasil ao Oscar de Melhor Filme Estrangeiro.' />
+    <Text titulo='Produções' textoApresentacao='Nossa missão é contar boas histórias.  
+
+Seja na TV, no cinema, videoclipes, Web ou no teatro, acreditamos que vivemos em um país que tem muita coisa boa para contar! Sabemos que somente a informação é capaz de gerar transformação e fazemos questão de fazer parte deste processo.  
+
+Aqui você vai conhecer um pouco mais do que fazemos, caso esteja buscando uma parceria, ou só por curiosidade mesmo. 
+
+Seja bem vindo ao nosso mundo, que é construído dia a dia, através das experiências que profissionais e clientes, dividem conosco. 
+
+É uma jornada e tanto! Mas estamos apenas no começo...' />
     <Videos />
     <WBottom />
     </>

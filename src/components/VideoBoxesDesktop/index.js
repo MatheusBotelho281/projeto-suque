@@ -17,7 +17,7 @@ export default function VideoBoxesDs() {
     <>
       {videoPopUp && <PopUp urlVideo={urlPopUp} close={() => setVideoPopUp(false)} /> }
       <Wrapper>
-        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/6Fkn-SW-91M')}>
+        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')}>
           <Video src='./img/mulheres-cesta.jpg' />
         </LinkVideo>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/jF5h_xM5hhM')}>
