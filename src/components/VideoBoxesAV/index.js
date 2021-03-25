@@ -4,6 +4,8 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { useState } from 'react'
 import PopUp from '../HomePopUp'
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 export default function VideoBoxes() {
 
@@ -17,8 +19,9 @@ export default function VideoBoxes() {
 
   return (
     <Wrapper>
+      <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
       {videoPopUp && <PopUp urlVideo={urlPopUp} close={() => setVideoPopUp(false)} /> }
-      <Slider>
+      <AwesomeSlider className='slider'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')}>
           <Video src='./img/mulheres-cesta.jpg' />
         </LinkVideo>
@@ -28,9 +31,8 @@ export default function VideoBoxes() {
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/dGHrd_Zsed4')}>
           <Video src='./img/rua-selva.jpg' />
         </LinkVideo>
-      </Slider>
-      <div className='barraPreta' />
-      <Slider>
+      </AwesomeSlider>
+      <AwesomeSlider className='slider'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/faJJqidkyEs')}>
           <Video src='./img/terapia-riso.jpg' />
         </LinkVideo>
@@ -40,7 +42,7 @@ export default function VideoBoxes() {
         <LinkVideo onClick={() => OpenPopUp('')}>
           <Video src='./img/comedy-rio.jpg' />
         </LinkVideo>
-      </Slider>
+      </AwesomeSlider>
     </Wrapper>
   )
 }

@@ -20,6 +20,9 @@ h1{
   @media only screen and (max-width: 640px){
     font-size: 30px;
   }
+  @media only screen and (max-width: 380px){
+    font-size: 26px;
+  }
 }
 `
 

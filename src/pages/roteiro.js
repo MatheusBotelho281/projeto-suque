@@ -7,18 +7,12 @@ import WBottom from '../components/WhiteBottom'
 export default function roteiro() {
   return (
     <>
-    <HeaderNoBg page="roteiro" />
-    <Text titulo='Roteiro'  textoApresentacao=' Nossa missão é contar boas histórias.  
-
-Seja na TV, no cinema, videoclipes, Web ou no teatro, acreditamos que vivemos em um país que tem muita coisa boa para contar! Sabemos que somente a informação é capaz de gerar transformação e fazemos questão de fazer parte deste processo.  
-
-Aqui você vai conhecer um pouco mais do que fazemos, caso esteja buscando uma parceria, ou só por curiosidade mesmo. 
-
-Seja bem vindo ao nosso mundo, que é construído dia a dia, através das experiências que profissionais e clientes, dividem conosco. 
-
-É uma jornada e tanto! Mas estamos apenas no começo...' />
-    <Videos />
-    <WBottom />
+      <HeaderNoBg page="roteiro" />
+      <Text titulo='Roteiro' textoApresentacao='A partir de uma ideia, damos vida à sua história. Podemos trabalhar em todas as etapas do processo de criação, construção de bíblia, argumento, roteiros para cinema, televisão, teatro, Branded Content, publicidade, institucional, clipe musical, web ou aulas online.
+      E fazemos tudo isso com paixão! O que faz toda a diferença.
+      Trabalhamos para que nosso conteúdo possa tocar, de alguma forma, a vida de quem assiste. Porque no fim das contas, é só isso que importa, não é?' />
+      <Videos />
+      <WBottom />
     </>
   )
 }

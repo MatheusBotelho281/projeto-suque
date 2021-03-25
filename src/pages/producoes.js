@@ -7,18 +7,12 @@ import WBottom from '../components/WhiteBottom'
 export default function producoes() {
   return (
     <>
-    <HeaderNoBg page="producoes" />
-    <Text titulo='Produções' textoApresentacao='Nossa missão é contar boas histórias.  
-
-Seja na TV, no cinema, videoclipes, Web ou no teatro, acreditamos que vivemos em um país que tem muita coisa boa para contar! Sabemos que somente a informação é capaz de gerar transformação e fazemos questão de fazer parte deste processo.  
-
-Aqui você vai conhecer um pouco mais do que fazemos, caso esteja buscando uma parceria, ou só por curiosidade mesmo. 
-
-Seja bem vindo ao nosso mundo, que é construído dia a dia, através das experiências que profissionais e clientes, dividem conosco. 
-
-É uma jornada e tanto! Mas estamos apenas no começo...' />
-    <Videos />
-    <WBottom />
+      <HeaderNoBg page="producoes" />
+      <Text titulo='Produções' textoApresentacao='Criamos e realizamos histórias. 
+      Do roteiro à pós produção, trabalhamos em todo o processo para que o nosso conteúdo seja produzido com qualidade. Seja para cinema, televisão, teatro, Branded Content, publicidade, institucional, clipe musical, web ou aulas online, toda a estratégia de produção é criada para que seja possível entregar o melhor produto, com o menor custo possível. 
+      Com mais de 10 anos de experiência, vivemos vários contextos ao longo desse tempo, o que nos mostrou que sempre será possível criar e realizar. Desde que você tenha um bom plano.' />
+      <Videos />
+      <WBottom />
     </>
   )
 }
