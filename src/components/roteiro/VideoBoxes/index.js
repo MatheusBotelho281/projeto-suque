@@ -67,7 +67,7 @@ export default function VideoBoxesDs() {
       {videoPopUp && <PopUp urlVideo={urlPopUp} close={() => setVideoPopUp(false)} />}
       <div onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')} onMouseEnter={PlayHover} onMouseLeave={PlayHoverOut} className='geral'>
         <LinkVideo>
-          <Video style={{ opacity: opacidade ? '75%' : '100%' }} src='./img/mulheres-cesta.jpg' />
+          <Video style={{ opacity: opacidade ? '75%' : '100%' }} src='./img/mulheres-cesta1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade ? '1' : '0' }} src='./img/play-button.png' />
           </TextoImg>
@@ -75,7 +75,7 @@ export default function VideoBoxesDs() {
       </div>
       <div className='geral'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/jF5h_xM5hhM')} onMouseEnter={PlayHover1} onMouseLeave={PlayHoverOut1}>
-          <Video style={{ opacity: opacidade1 ? '75%' : '100%' }} src='./img/ella.jpg' />
+          <Video style={{ opacity: opacidade1 ? '75%' : '100%' }} src='./img/ella1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade1 ? '1' : '0' }} src='./img/play-button.png' />
           </TextoImg>
@@ -83,7 +83,7 @@ export default function VideoBoxesDs() {
       </div>
       <div className='geral'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/dGHrd_Zsed4')} onMouseEnter={PlayHover2} onMouseLeave={PlayHoverOut2}>
-          <Video style={{ opacity: opacidade2 ? '75%' : '100%' }} src='./img/rua-selva.jpg' />
+          <Video style={{ opacity: opacidade2 ? '75%' : '100%' }} src='./img/rua-selva1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade2 ? '1' : '0' }} src='./img/play-button.png' />
           </TextoImg>
@@ -92,7 +92,7 @@ export default function VideoBoxesDs() {
       <div className='geral'>
         <LinkVideo onMouseEnter={PlayHover3} onMouseLeave={PlayHoverOut3}>
           <a href='https://www.youtube.com/c/Asdespachadas/featured' target='_blank'>
-            <Video style={{ opacity: opacidade3 ? '75%' : '100%' }} src='./img/despacha.jpg' />
+            <Video style={{ opacity: opacidade3 ? '75%' : '100%' }} src='./img/despacha1.jpg' />
           </a>
           <TextoImg>
             <a href='https://www.youtube.com/c/Asdespachadas/featured' target='_blank'>
@@ -103,7 +103,7 @@ export default function VideoBoxesDs() {
       </div>
       <div className='geral'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/RIxOrF7xqUs')} onMouseEnter={PlayHover4} onMouseLeave={PlayHoverOut4}>
-          <Video style={{ opacity: opacidade4 ? '75%' : '100%' }} src='./img/salto-furia.jpg' />
+          <Video style={{ opacity: opacidade4 ? '75%' : '100%' }} src='./img/salto-furia1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade4 ? '1' : '0' }} src='./img/play-button.png' />
           </TextoImg>
@@ -111,7 +111,7 @@ export default function VideoBoxesDs() {
       </div>
       <div className='geral'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/wwywOmi1IIQ')} onMouseEnter={PlayHover5} onMouseLeave={PlayHoverOut5}>
-          <Video style={{ opacity: opacidade5 ? '75%' : '100%' }} src='./img/prefiro-cela.jpg' />
+          <Video style={{ opacity: opacidade5 ? '75%' : '100%' }} src='./img/prefiro-cela1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade5 ? '1' : '0' }} src='./img/play-button.png' />
           </TextoImg>
