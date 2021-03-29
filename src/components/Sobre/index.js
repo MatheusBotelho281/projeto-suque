@@ -5,24 +5,9 @@ export default function Sobre() {
   return (
     <Wrapper>
       <InnerWrapper>
-        <div className='imagens'>
-          <img className='red' src='./img/red-dashed.png ' />
-          <img className='img' src='./img/placeholder1.jpg' />
-        </div>
-        <div>
-          <h3 className='since'>
-            desde 1993
-          </h3>
-          <h2 className='texto'>
-            Somos uma produtora de filmes e vídeos criativos com sede em ________, Brasil.
-          </h2>
-          <div className='blueBar' />
-          <p>
-          Somos uma produtora criativa de filmes e fotos com fome de qualidade estética. Para criar coisas modernas reconhecíveis,
-          estamos trabalhando com uma forte rede de profissionais experientes. Montamos equipes para moldar sua identidade, 
-          divulgar sua ideia e gerenciar o fluxo de trabalho da pré à pós-produção.
-          </p>
-        </div>
+        <p style={{ color: 'black' }}>
+          Nossa missão é contar boas histórias. Seja na TV, no cinema, videoclipes, Web ou no teatro, acreditamos que vivemos em um país que tem muita coisa boa para contar! Sabemos que somente a informação é capaz de gerar transformação e fazemos questão de fazer parte deste processo. Aqui você vai conhecer um pouco mais do que fazemos, caso esteja buscando uma parceria, ou só por curiosidade mesmo. Seja bem vindo ao nosso mundo, que é construído dia a dia, através das experiências que profissionais e clientes, dividem conosco. É uma jornada e tanto! Mas, apesar de já estarmos há 10 anos no mercado, acreditamos que é apenas o começo de uma grande história.
+        </p>
       </InnerWrapper>
     </Wrapper>
   )

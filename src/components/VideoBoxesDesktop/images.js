@@ -8,7 +8,6 @@ position: absolute;
 left: 10px;
 cursor: pointer;
 z-index: 9999;
-
 transition: all 0,4s;
 img{
   position: absolute;

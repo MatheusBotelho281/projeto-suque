@@ -10,8 +10,6 @@ export default function sobre() {
     <>
     <HeaderNoBg page="sobre" />
     <Sobre />
-    <Details />
-    <BBottom />
     <WBottom />
     </>
   )
