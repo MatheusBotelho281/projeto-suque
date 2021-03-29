@@ -12,15 +12,15 @@ export default function VideoBoxes() {
   const [videoPopUp, setVideoPopUp] = useState(false)
   const [urlPopUp, setUrlPopUp] = useState('')
 
-  function OpenPopUp(url){
+  function OpenPopUp(url) {
     setVideoPopUp(true)
     setUrlPopUp(url)
   }
 
   return (
     <Wrapper>
-      <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
-      {videoPopUp && <PopUp urlVideo={urlPopUp} close={() => setVideoPopUp(false)} /> }
+      <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css" />
+      {videoPopUp && <PopUp urlVideo={urlPopUp} close={() => setVideoPopUp(false)} />}
       <AwesomeSlider className='slider'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')}>
           <Video src='./img/mulheres-cesta.jpg' />
@@ -31,8 +31,6 @@ export default function VideoBoxes() {
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/dGHrd_Zsed4')}>
           <Video src='./img/rua-selva.jpg' />
         </LinkVideo>
-      </AwesomeSlider>
-      <AwesomeSlider className='slider'>
         <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/faJJqidkyEs')}>
           <Video src='./img/terapia-riso.jpg' />
         </LinkVideo>

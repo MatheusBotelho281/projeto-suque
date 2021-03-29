@@ -2,20 +2,28 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 display: flex;
+width: 175%;
+display: flex;
+position: relative;
 align-items: center;
 justify-content: center;
-flex-wrap: wrap;
+overflow: hidden;
+transition: all 1s;
+left: ${props => props.move};
 @media only screen and (max-width: 737px){
   display: none;
 }
 .geral{
-  width: 33.33%;
-  @media only screen and (max-width: 1000px){
-    width: 50%;
-  }
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: auto;
 }
 `
 export const Video = styled.img`
+display: flex;
+position: relative;
+overflow: hidden;
 cursor: pointer;
 width: 100%;
 border-top: 10px solid;
@@ -25,6 +33,9 @@ transition: 0.2s;
 }
 `
 export const LinkVideo = styled.a`
+display: flex;
+position: relative;
+overflow: hidden;
 width: 100%;
 height: 100%;
 @media only screen and (max-width: 1200px){

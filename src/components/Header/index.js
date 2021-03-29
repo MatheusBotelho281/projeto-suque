@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderLink from '../HeaderLink'
-import {InnerWrapper, Logo, TextWrapper, Wrapper } from './styles'
+import { InnerWrapper, Logo, TextWrapper, Wrapper } from './styles'
 import styled from 'styled-components'
 import Menu from '../HeaderMenu'
 import HeaderText from '../TextHeader'
@@ -27,7 +27,7 @@ export default function Header() {
         </div>
         <div>
           <HeaderLink nomeOpcao='Home' />
-          <HeaderLink pageUrl='/sobre'  nomeOpcao='Sobre' />
+          <HeaderLink pageUrl='/sobre' nomeOpcao='Sobre' />
           <HeaderLink pageUrl='/producoes' nomeOpcao='Produções' />
           <HeaderLink pageUrl='/roteiro' nomeOpcao='Roteiro' />
           <HeaderLink pageUrl='/contato' nomeOpcao='Contato' />

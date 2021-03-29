@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 display: flex;
 flex-direction: column;
-height: 150px;
+height: auto;
 width: auto;
-background-color: ;
+background-image: url(./img/bg-header1.png);
 background-size: cover;
 padding-bottom: 80px;
 `
