@@ -8,6 +8,7 @@ import VideoBoxes from '../components/VideoBoxesAV'
 export default function Home() {
   return (
     <div style={{backgroundColor:'black', overflow: 'hidden'}}>
+      <Head><title>Suque Produções</title></Head>
       <Header />
       <VideoBoxes />
       <VideoBoxesDs></VideoBoxesDs>

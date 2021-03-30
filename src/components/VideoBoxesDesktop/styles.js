@@ -18,6 +18,12 @@ transition: all 1s;
   overflow: hidden;
   width: auto;
 }
+.watch{
+  position: absolute;
+  z-index: 1000000;
+  right: 50%;
+  top: 70%;
+}
 `
 
 export const InnerWrapper = styled.div`
@@ -50,9 +56,7 @@ cursor: pointer;
 width: 100%;
 border-top: 10px solid;
 transition: 0.2s;
-:hover{
-  opacity: 0.8;
-}
+opacity: ${props => props.opacidade}
 `
 export const LinkVideo = styled.a`
 display: flex;

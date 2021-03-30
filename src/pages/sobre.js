@@ -4,13 +4,15 @@ import WBottom from '../components/WhiteBottom'
 import BBottom from '../components/BlueBottom'
 import Sobre from '../components/Sobre'
 import Details from '../components/Sobre/Detalhes'
+import Head from 'next/head'
 
 export default function sobre() {
   return (
     <>
-    <HeaderNoBg page="sobre" />
-    <Sobre />
-    <WBottom />
+      <Head><title>Suque Produções</title></Head>
+      <HeaderNoBg page="sobre" />
+      <Sobre />
+      <WBottom />
     </>
   )
 }
