@@ -20,7 +20,7 @@ img{
 export default function Images(props) {
   return (
     <Image>
-      <img left={props.left} src='./img/menu.png' />
+      <img onClick={() =>props.walk} left={props.left} src='./img/menu.png' />
     </Image>
   )
 }

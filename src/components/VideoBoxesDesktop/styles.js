@@ -9,6 +9,26 @@ align-items: center;
 justify-content: center;
 overflow: hidden;
 transition: all 1s;
+@media only screen and (max-width: 737px){
+  display: none;
+}
+.geral{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+}
+`
+
+export const InnerWrapper = styled.div`
+display: flex;
+width: 175%;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+transition: all 1s;
 left: ${props => props.move};
 @media only screen and (max-width: 737px){
   display: none;
@@ -20,6 +40,8 @@ left: ${props => props.move};
   width: auto;
 }
 `
+
+
 export const Video = styled.img`
 display: flex;
 position: relative;
