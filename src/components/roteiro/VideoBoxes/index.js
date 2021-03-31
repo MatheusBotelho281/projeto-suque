@@ -70,6 +70,7 @@ export default function VideoBoxesDs() {
           <Video style={{ opacity: opacidade ? '75%' : '100%' }} src='./img/mulheres-cesta1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade ? '1' : '0' }} src='./img/play-button.png' />
+            <p style={{ opacity: opacidade ? '1' : '0' }} className='texto'>Trailer: Mulheres à Cesta</p>
           </TextoImg>
         </LinkVideo>
       </div>
@@ -78,6 +79,7 @@ export default function VideoBoxesDs() {
           <Video style={{ opacity: opacidade1 ? '75%' : '100%' }} src='./img/ella1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade1 ? '1' : '0' }} src='./img/play-button.png' />
+            <p style={{ opacity: opacidade1 ? '1' : '0' }} className='texto'>Ella</p>
           </TextoImg>
         </LinkVideo>
       </div>
@@ -86,6 +88,7 @@ export default function VideoBoxesDs() {
           <Video style={{ opacity: opacidade2 ? '75%' : '100%' }} src='./img/rua-selva1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade2 ? '1' : '0' }} src='./img/play-button.png' />
+            <p style={{ opacity: opacidade2 ? '1' : '0' }} className='texto'>A Rua é Uma Selva</p>
           </TextoImg>
         </LinkVideo>
       </div>
@@ -97,6 +100,7 @@ export default function VideoBoxesDs() {
           <TextoImg>
             <a href='https://www.youtube.com/c/Asdespachadas/featured' target='_blank'>
               <img style={{ opacity: opacidade3 ? '1' : '0' }} src='./img/seta.png' />
+              <p style={{ opacity: opacidade3 ? '1' : '0' }} className='texto'>Despacha-te!</p>
             </a>
           </TextoImg>
         </LinkVideo>
@@ -106,6 +110,7 @@ export default function VideoBoxesDs() {
           <Video style={{ opacity: opacidade4 ? '75%' : '100%' }} src='./img/salto-furia1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade4 ? '1' : '0' }} src='./img/play-button.png' />
+            <p style={{ opacity: opacidade4 ? '1' : '0' }} className='texto'>Salto em Fúria</p>
           </TextoImg>
         </LinkVideo>
       </div>
@@ -114,6 +119,7 @@ export default function VideoBoxesDs() {
           <Video style={{ opacity: opacidade5 ? '75%' : '100%' }} src='./img/prefiro-cela1.jpg' />
           <TextoImg>
             <img style={{ opacity: opacidade5 ? '1' : '0' }} src='./img/play-button.png' />
+            <p style={{ opacity: opacidade5 ? '1' : '0' }} className='texto'>Prefiro a Cela</p>
           </TextoImg>
         </LinkVideo>
       </div>

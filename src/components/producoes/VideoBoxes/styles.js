@@ -42,7 +42,7 @@ display: flex;
 
 `
 export const TextoImg = styled.div`
-z-index: 999;
+z-index: 99;
 position: absolute;
 color: white;
 font-size: 30px;
@@ -58,5 +58,10 @@ img{
   transition: all 0,4s;
   :hover{
   }
+}
+.texto{
+  position: absolute;
+  bottom: -225%;
+  left: -320%;
 }
 `

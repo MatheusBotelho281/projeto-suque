@@ -6,19 +6,14 @@ export default function Info() {
     <Wrapper>
       <InnerWrapper>
         <div>
-          <h3>Funcionamento</h3>
-          <p>Segunda – Sábado</p>
-          <p>8:00 – 21:00</p>
-        </div>
-        <div>
           <h3>Localização</h3>
-          <p>547 Estrada X</p>
-          <p>Cidade, Estado</p>
+          <p>Av. Figueiredo de Magalhães 794</p>
+          <p>Copacabana, Rio de Janeiro</p>
         </div>
         <div>
           <h3>Contato</h3>
-          <p>(xx) xxxxx – xxxx</p>
-          <p>email@email.com</p>
+          <p>(21) 98290-8734</p>
+          <p>suqueproducoes@suqueproducoes.com.br</p>
         </div>
       </InnerWrapper>
     </Wrapper>

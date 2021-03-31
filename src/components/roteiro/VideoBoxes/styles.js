@@ -59,4 +59,9 @@ img{
   :hover{
   }
 }
+.texto{
+  position: absolute;
+  bottom: -225%;
+  left: -320%;
+}
 `

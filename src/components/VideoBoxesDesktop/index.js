@@ -19,7 +19,6 @@ export default function VideoBoxesDs() {
   const [play4, setPlay4] = useState(false)
   const [play5, setPlay5] = useState(false)
   const [play6, setPlay6] = useState(false)
-  const [play7, setPlay7] = useState(false)
 
   const [opacidade1, setOpacidade1] = useState('1')
   const [opacidade2, setOpacidade2] = useState('1')
@@ -36,10 +35,18 @@ export default function VideoBoxesDs() {
 
   function movimentarLeft(porc) {
     esquerda == 1 ? null : setEsquerda(porc)
+    if (esquerda == '0%') {
+      setEsquerda('-42.88%')
+    } else {
+    }
   }
 
   function movimentarRight(porc) {
     esquerda == 1 ? null : setEsquerda(porc)
+    if (esquerda == '-42.88%') {
+      setEsquerda('0%')
+    } else {
+    }
   }
   function enter() {
     setOpacidade1('0.7')
@@ -127,7 +134,7 @@ export default function VideoBoxesDs() {
   text-transform: uppercase;
   background-color: #0e10da;
   letter-spacing: 2px;
-  z-index: 10000;
+  z-index: 10;
   transition: all 0.3s;
   cursor: pointer;
   opacity: 2!important;
@@ -151,44 +158,44 @@ export default function VideoBoxesDs() {
           <InnerWrapper move={esquerda}>
             <div onMouseEnter={() => setPlay(true), enter} onMouseLeave={() => setPlay(false), leave} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')}>
-                {play && <Teste>veja</Teste>}
+                {play && <Teste onClick={() => setPlay(false), leave}>veja</Teste>}
                 <Video opacidade={opacidade1} src='./img/mulheres-cesta.jpg' />
               </LinkVideo>
             </div>
-            <div onMouseEnter={() => setPlay1(true), enter1} onMouseLeave={() => setPlay1(false), leave1}  className='geral'>
+            <div onMouseEnter={() => setPlay1(true), enter1} onMouseLeave={() => setPlay1(false), leave1} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/jF5h_xM5hhM')}>
-                {play1 && <Teste>Veja</Teste>}
-                <Video opacidade={opacidade2}  src='./img/ella.jpg' />
+                {play1 && <Teste onClick={() => setPlay1(false), leave1}>Veja</Teste>}
+                <Video opacidade={opacidade2} src='./img/ella.jpg' />
               </LinkVideo>
             </div>
-            <div onMouseEnter={() => setPlay2(true), enter2} onMouseLeave={() => setPlay2(false), leave2}  className='geral'>
+            <div onMouseEnter={() => setPlay2(true), enter2} onMouseLeave={() => setPlay2(false), leave2} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/dGHrd_Zsed4')}>
-                {play2 && <Teste>veja</Teste>}
-                <Video opacidade={opacidade3}  src='./img/rua-selva.jpg' />
+                {play2 && <Teste onClick={() => setPlay2(false), leave2}>veja</Teste>}
+                <Video opacidade={opacidade3} src='./img/rua-selva.jpg' />
               </LinkVideo>
             </div>
-            <div onMouseEnter={() => setPlay3(true), enter3} onMouseLeave={() => setPlay3(false), leave3}  className='geral'>
+            <div onMouseEnter={() => setPlay3(true), enter3} onMouseLeave={() => setPlay3(false), leave3} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('')}>
-                {play3 && <Teste>veja</Teste>}
-                <Video opacidade={opacidade4}  src='./img/forca.jpg' />
+                {play3 && <Teste onClick={() => setPlay3(false), leave3}>veja</Teste>}
+                <Video opacidade={opacidade4} src='./img/forca.jpg' />
               </LinkVideo>
             </div>
-            <div onMouseEnter={() => setPlay4(true), enter4} onMouseLeave={() => setPlay4(false), leave4}  className='geral'>
+            <div onMouseEnter={() => setPlay4(true), enter4} onMouseLeave={() => setPlay4(false), leave4} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/faJJqidkyEs')}>
-                {play4 && <Teste>veja</Teste>}
-                <Video opacidade={opacidade5}  src='./img/terapia-riso.jpg' />
+                {play4 && <Teste onClick={() => setPlay4(false), leave4}>veja</Teste>}
+                <Video opacidade={opacidade5} src='./img/terapia-riso.jpg' />
               </LinkVideo>
             </div>
-            <div onMouseEnter={() => setPlay5(true), enter5} onMouseLeave={() => setPlay5(false), leave5}  className='geral'>
+            <div onMouseEnter={() => setPlay5(true), enter5} onMouseLeave={() => setPlay5(false), leave5} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/RIxOrF7xqUs')}>
-                {play5 && <Teste>veja</Teste>}
-                <Video opacidade={opacidade6}  src='./img/salto-furia.jpg' />
+                {play5 && <Teste onClick={() => setPlay5(false), leave5}>veja</Teste>}
+                <Video opacidade={opacidade6} src='./img/salto-furia.jpg' />
               </LinkVideo>
             </div>
-            <div onMouseEnter={() => setPlay6(true), enter6} onMouseLeave={() => setPlay6(false), leave6}  className='geral'>
+            <div onMouseEnter={() => setPlay6(true), enter6} onMouseLeave={() => setPlay6(false), leave6} className='geral'>
               <LinkVideo onClick={() => OpenPopUp('')}>
-                {play6 && <Teste>veja</Teste>}
-                <Video opacidade={opacidade7}  src='./img/comedy-rio.jpg' />
+                {play6 && <Teste onClick={() => setPlay6(false), leave6}>veja</Teste>}
+                <Video opacidade={opacidade7} src='./img/comedy-rio.jpg' />
               </LinkVideo>
             </div>
           </InnerWrapper>

@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
 color: black;
 display: flex;
 justify-content: center;
+display: flex;
 width: 100%;
 min-height: 67.2vh;
 height: auto;
@@ -17,6 +18,7 @@ margin-top: 100px;
 display: flex;
 justify-content: center;
 position: relative;
+flex-direction: column;
 height: auto;
 width: 100%;
 @media only screen and (max-width: 1024px){
@@ -38,5 +40,18 @@ p{
   @media only screen and (max-width: 768px){
     font-size: 22px;
   }
+}
+.parceiros{
+  display: flex;
+  align-items: start;
+  font-family: "Merriweather", Sans-serif;
+  font-size: 26px;
+}
+.titulo{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-family: "Merriweather", Sans-serif;
+  font-size: 26px;
 }
 `
