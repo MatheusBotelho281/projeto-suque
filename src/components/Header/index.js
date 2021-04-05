@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Menu from '../HeaderMenu'
 import HeaderText from '../TextHeader'
 import Link from 'next/link'
+import Slider from '../../ImageSlider'
 
 const Lupa = styled.img`
 height: 20px;
@@ -17,7 +18,6 @@ margin: 0 1rem;
 `
 
 export default function Header() {
-
 
   return (
     <Wrapper>
@@ -35,7 +35,7 @@ export default function Header() {
         </div>
         <Menu />
       </InnerWrapper>
-      <HeaderText />
+      <Slider />
     </Wrapper>
   )
 }

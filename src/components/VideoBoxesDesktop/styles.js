@@ -9,6 +9,7 @@ align-items: center;
 justify-content: center;
 overflow: hidden;
 transition: all 1s;
+background-color: black;
 @media only screen and (max-width: 737px){
   display: none;
 }

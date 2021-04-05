@@ -5,8 +5,7 @@ import Link from 'next/link'
 export default function BBottom() {
   return (
     <Wrapper>
-      <h1>Nossa missão é contar boas histórias.<br/> Você está pronto? Vamos trabalhar!</h1>
-      <BlueButton>Contra-te nos agora</BlueButton>
+      <h1>Nossa missão é contar boas histórias.<br/> Você está pronto? Vamos começar!</h1>
     </Wrapper>
   )
 }

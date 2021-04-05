@@ -60,8 +60,32 @@ img{
   }
 }
 .texto{
+  cursor: pointer;
+  bottom: -180px;
+  right: -40px;
   position: absolute;
-  bottom: -225%;
-  left: -320%;
+  width: 20vw;
+  @media only screen and (max-width: 1700px){
+    bottom: -140px;
+  }
+  @media only screen and (max-width: 1400px){
+    bottom: -130px;
+    right: -30px;
+  }
+  @media only screen and (max-width: 1250px){
+    bottom: -110px;
+    right: -30px;
+  }
+  @media only screen and (max-width: 1200px){
+    bottom: -140px;
+    right: 75px;
+  }
+  @media only screen and (max-width: 876px){
+    bottom: -110px;
+    right: 65px;
+  }
+  @media only screen and (max-width: 726px){
+    display: none;
+  }
 }
 `

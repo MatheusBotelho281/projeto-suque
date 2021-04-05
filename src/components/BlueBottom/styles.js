@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-background: #0e10da;
+background: black;
 width: auto;
-height: 36vh;
+height: 32vh;
 align-items: center;
 display: flex;
 flex-direction: column;
@@ -12,7 +12,7 @@ color: white;
 text-align: center;
 h1{
   font-family: 'Lato', Sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 50px;
   @media only screen and (max-width: 800px){
     font-size: 40px;

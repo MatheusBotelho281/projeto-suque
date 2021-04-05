@@ -5,9 +5,7 @@ display: flex;
 flex-direction: column;
 height: auto;
 width: auto;
-background-image: url(./img/bg-header1.png);
 background-size: cover;
-padding-bottom: 80px;
 `
 
 export const InnerWrapper = styled.div`
@@ -19,6 +17,7 @@ display: flex;
 justify-content: space-between;
 position: relative;
 transition: 0.4s;
+background-color: black;
 }
 @media only screen and (max-width: 1200px){
   width:auto;

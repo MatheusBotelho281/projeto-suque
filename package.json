@@ -17,6 +17,7 @@
     "react-elastic-carousel": "^0.11.4",
     "react-modal-video": "^1.2.6",
     "react-responsive-carousel": "^3.2.15",
+    "react-simple-image-slider": "^2.0.3",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
