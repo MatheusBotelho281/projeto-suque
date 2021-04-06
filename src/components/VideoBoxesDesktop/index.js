@@ -130,6 +130,9 @@ export default function VideoBoxesDs() {
   transition: all 0.3s;
   cursor: pointer;
   opacity: 1.2!important;
+  @media only screen and (max-width: 1200px){
+    width: 70px;
+  }
   :hover{
     opacity: 2!important;
   }

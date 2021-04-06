@@ -54,6 +54,7 @@ export default function Slider() {
     }
   }
   return (
+
     <Wrapper time={tempo} right={direita}>
       <img onClick={mover} src="./img/seta3.png" />
       <img style={{ left: '1%' }} onClick={mover1} src="./img/seta4.png" />
