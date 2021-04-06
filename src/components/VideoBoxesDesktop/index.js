@@ -11,7 +11,7 @@ export default function VideoBoxesDs() {
 
   const [videoPopUp, setVideoPopUp] = useState(false)
   const [urlPopUp, setUrlPopUp] = useState('')
-  const [esquerda, setEsquerda] = useState('0')
+  const [esquerda, setEsquerda] = useState('-50%')
   const [play, setPlay] = useState(false)
   const [play1, setPlay1] = useState(false)
   const [play2, setPlay2] = useState(false)
@@ -19,6 +19,7 @@ export default function VideoBoxesDs() {
   const [play4, setPlay4] = useState(false)
   const [play5, setPlay5] = useState(false)
   const [play6, setPlay6] = useState(false)
+  const [play7, setPlay7] = useState(false)
 
   const [opacidade1, setOpacidade1] = useState('1')
   const [opacidade2, setOpacidade2] = useState('1')
@@ -27,6 +28,7 @@ export default function VideoBoxesDs() {
   const [opacidade5, setOpacidade5] = useState('1')
   const [opacidade6, setOpacidade6] = useState('1')
   const [opacidade7, setOpacidade7] = useState('1')
+  const [opacidade8, setOpacidade8] = useState('1')
 
   function OpenPopUp(url) {
     setVideoPopUp(true)
@@ -36,14 +38,14 @@ export default function VideoBoxesDs() {
   function movimentarLeft(porc) {
     esquerda == 1 ? null : setEsquerda(porc)
     if (esquerda == '0%') {
-      setEsquerda('-42.88%')
+      setEsquerda('-50%')
     } else {
     }
   }
 
   function movimentarRight(porc) {
     esquerda == 1 ? null : setEsquerda(porc)
-    if (esquerda == '-42.88%') {
+    if (esquerda == '-50%') {
       setEsquerda('0%')
     } else {
     }
@@ -104,9 +106,17 @@ export default function VideoBoxesDs() {
     setOpacidade7('1')
     setPlay6(false)
   }
+  function enter7() {
+    setOpacidade8('0.7')
+    setPlay7(true)
+  }
+  function leave7() {
+    setOpacidade8('1')
+    setPlay7(false)
+  }
 
   const BotaoSlide = styled.div`
-  z-index: 99999;
+  z-index: 99;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -146,7 +156,7 @@ export default function VideoBoxesDs() {
           <BotaoSlide local='1%' onClick={() => movimentarLeft('0%')}>
             <img src='./img/seta2.png' />
           </BotaoSlide>
-          <BotaoSlide local='54%' onClick={() => movimentarRight('-42.88%')}>
+          <BotaoSlide local='47.5%' onClick={() => movimentarRight('-50%')}>
             <img src='./img/seta1.png' />
           </BotaoSlide>
           <InnerWrapper move={esquerda}>
@@ -169,7 +179,7 @@ export default function VideoBoxesDs() {
               </LinkVideo>
             </div>
             <div onMouseEnter={() => setPlay3(true), enter3} onMouseLeave={() => setPlay3(false), leave3} className='geral'>
-              <LinkVideo onClick={() => OpenPopUp('')}>
+              <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/GvxhVohTjSk')}>
                 {play3 && <Teste src='./img/play-button.png'  onClick={() => setPlay3(false), leave3}></Teste>}
                 <Video opacidade={opacidade4} src='./img/forca.jpg' />
               </LinkVideo>
@@ -190,6 +200,12 @@ export default function VideoBoxesDs() {
               <LinkVideo onClick={() => OpenPopUp('')}>
                 {play6 && <Teste src='./img/play-button.png'  onClick={() => setPlay6(false), leave6}></Teste>}
                 <Video opacidade={opacidade7} src='./img/comedy-rio.jpg' />
+              </LinkVideo>
+            </div>
+            <div onMouseEnter={() => setPlay7(true), enter7} onMouseLeave={() => setPlay7(false), leave7} className='geral'>
+              <LinkVideo onClick={() => OpenPopUp('')}>
+                {play7 && <Teste src='./img/play-button.png'  onClick={() => setPlay7(false), leave7}></Teste>}
+                <Video opacidade={opacidade8} src='./img/mulherescestacartaz.png' />
               </LinkVideo>
             </div>
           </InnerWrapper>

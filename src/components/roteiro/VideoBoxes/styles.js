@@ -5,6 +5,11 @@ display: flex;
 flex-wrap: wrap;
 background-color: black;
 position: relative;
+.ph{
+  @media only screen and (max-width: 1200px){
+    display: none;
+  }
+}
 .geral{
   display: flex;
   width: 33.33%;
@@ -29,10 +34,7 @@ width: 100%;
 height: 100%;
 cursor: pointer;
 transition: 0.4s;
-opacity: 75%;
-:hover{
-  opacity: 100%;
-}
+opacity: 100%;
 `
 export const LinkVideo = styled.div`
 position: relative;

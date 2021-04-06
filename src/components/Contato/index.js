@@ -14,18 +14,6 @@ export default function ContatoForm() {
           <input placeholder='Seu Email'></input>
           <input placeholder='Seu Telefone'></input>
         </div>
-        <div className='inputs2'>
-          <select>
-            <option>
-              Opção
-            </option>
-          </select>
-          <select>
-            <option>
-              Opção
-            </option>
-          </select>
-        </div>
         <div className='inputs3'>
           <textarea placeholder='Conte-nos mais sobre seu projeto'>
           </textarea>
