@@ -11,7 +11,7 @@ export default function VideoBoxesDs() {
 
   const [videoPopUp, setVideoPopUp] = useState(false)
   const [urlPopUp, setUrlPopUp] = useState('')
-  const [esquerda, setEsquerda] = useState('-50%')
+  const [esquerda, setEsquerda] = useState('0%')
   const [play, setPlay] = useState(false)
   const [play1, setPlay1] = useState(false)
   const [play2, setPlay2] = useState(false)

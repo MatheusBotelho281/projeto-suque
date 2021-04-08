@@ -1,6 +1,5 @@
 import React from 'react'
 import { Wrapper, Video, LinkVideo } from './styles'
-import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { useState } from 'react'
 import PopUp from '../HomePopUp'

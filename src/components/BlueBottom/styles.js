@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 background: black;
 width: auto;
-height: 32vh;
+height: 20vh;
 align-items: center;
 display: flex;
 flex-direction: column;
@@ -13,15 +13,15 @@ text-align: center;
 h1{
   font-family: 'Lato', Sans-serif;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 42px;
   @media only screen and (max-width: 800px){
-    font-size: 40px;
+    font-size: 36px;
   }
   @media only screen and (max-width: 640px){
-    font-size: 30px;
+    font-size: 22px;
   }
   @media only screen and (max-width: 380px){
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 `

@@ -35,7 +35,6 @@ export default function Header() {
         </div>
         <Menu />
       </InnerWrapper>
-      <ImageContato />
     </Wrapper>
   )
 }

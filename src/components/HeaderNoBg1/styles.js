@@ -10,7 +10,7 @@ background-size: cover;
 
 export const InnerWrapper = styled.div`
 width: 1200px;
-height: 130px;
+height: 95px;
 margin: 0 auto;
 align-items: center;
 display: flex;

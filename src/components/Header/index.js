@@ -5,7 +5,30 @@ import styled from 'styled-components'
 import Menu from '../HeaderMenu'
 import HeaderText from '../TextHeader'
 import Link from 'next/link'
-import Slider from '../../ImageSlider'
+import SliderHome from '../Carousel'
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+const slider = (
+  <AutoplaySlider
+    play={true}
+    cancelOnInteraction={false}
+    interval={3000}
+    mobileTouch={false}
+    buttons={false}
+    style={{height: '70vh'}}
+  >
+    <div data-src="./img/1.jpg" />
+    <div data-src="./img/2.jpg" />
+    <div data-src="./img/3.jpg" />
+    <div data-src="./img/4.jpg" />
+    <div data-src="./img/5.jpg" />
+    <div data-src="./img/6.jpg" />
+  </AutoplaySlider>
+);
 
 const Lupa = styled.img`
 height: 20px;
@@ -35,7 +58,7 @@ export default function Header() {
         </div>
         <Menu />
       </InnerWrapper>
-      <Slider />
+      {slider}
     </Wrapper>
   )
 }
