@@ -6,7 +6,7 @@ flex-wrap: wrap;
 background-color: black;
 position: relative;
 .ph{
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 726px){
     display: none;
   }
 }

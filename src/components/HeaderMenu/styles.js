@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const WrapperMenu = styled.div`
-z-index: 9999;
+z-index: 99999999999999;
 @media only screen and (min-width: 1025px){
   display: none!important;
 }

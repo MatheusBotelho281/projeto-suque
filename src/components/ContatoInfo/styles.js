@@ -64,8 +64,17 @@ div{
 }
 .margin4{
   p{
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 750px){
+      font-size: 20px!important;
+    }
+    @media only screen and (max-width: 600px){
       font-size: 18px!important;
+    }
+    @media only screen and (max-width: 400px){
+      font-size: 16px!important;
+    }
+    @media only screen and (max-width: 280px){
+      font-size: 12px!important;
     }
   }
   @media only screen and (max-width: 1000px){

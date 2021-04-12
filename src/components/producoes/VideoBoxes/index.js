@@ -18,6 +18,7 @@ export default function VideoBoxesDs() {
   const [opacidade8, setOpacidade8] = useState(false)
   const [opacidade9, setOpacidade9] = useState(false)
   const [opacidade10, setOpacidade10] = useState(false)
+  const [opacidade11, setOpacidade11] = useState(false)
 
   function OpenPopUp(url) {
     setVideoPopUp(true)
@@ -90,6 +91,12 @@ export default function VideoBoxesDs() {
   function PlayHoverOut10() {
     setOpacidade10(false)
   }
+  function PlayHover11() {
+    setOpacidade11(true)
+  }
+  function PlayHoverOut11() {
+    setOpacidade11(false)
+  }
 
 
   return (
@@ -152,7 +159,7 @@ export default function VideoBoxesDs() {
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo onClick={() => OpenPopUp('')} onMouseEnter={PlayHover7} onMouseLeave={PlayHoverOut7}>
+        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/ESDWmhIVhYg')} onMouseEnter={PlayHover7} onMouseLeave={PlayHoverOut7}>
           <Video style={{ opacity: opacidade7 ? '75%' : '100%' }} src='./img/terapia4.png' />
           <TextoImg>
             <img style={{ opacity: opacidade7 ? '1' : '0' }} src='./img/play-button.png' />
@@ -179,7 +186,7 @@ export default function VideoBoxesDs() {
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/wwywOmi1IIQ')} onMouseEnter={PlayHover10} onMouseLeave={PlayHoverOut10}>
+        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/6ShPCpnFjq0')} onMouseEnter={PlayHover10} onMouseLeave={PlayHoverOut10}>
           <Video style={{ opacity: opacidade10 ? '75%' : '100%' }} src='./img/loucos.png' />
           <TextoImg>
             <img style={{ opacity: opacidade10 ? '1' : '0' }} src='./img/play-button.png' />
@@ -188,9 +195,11 @@ export default function VideoBoxesDs() {
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo>
-          <Video className="ph" style={{ cursor: "default" }} src='./img/whiteplaceholder.png' />
+        <LinkVideo onClick={() => OpenPopUp('')} onMouseEnter={PlayHover11} onMouseLeave={PlayHoverOut11}>
+          <Video style={{ opacity: opacidade11 ? '75%' : '100%' }} src='./img/riocomedy.png' />
           <TextoImg>
+            <img style={{ opacity: opacidade11 ? '1' : '0' }} src='./img/play-button.png' />
+            {/* <p style={{ opacity: opacidade9 ? '1' : '0' }} className='texto'>Zago</p> */}
           </TextoImg>
         </LinkVideo>
       </div>

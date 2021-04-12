@@ -17,6 +17,7 @@ export default function VideoBoxesDs() {
   const [opacidade7, setOpacidade7] = useState(false)
   const [opacidade8, setOpacidade8] = useState(false)
   const [opacidade9, setOpacidade9] = useState(false)
+  const [opacidade10, setOpacidade10] = useState(false)
 
   function OpenPopUp(url) {
     setVideoPopUp(true)
@@ -82,6 +83,12 @@ export default function VideoBoxesDs() {
   function PlayHoverOut9() {
     setOpacidade9(false)
   }
+  function PlayHover10() {
+    setOpacidade10(true)
+  }
+  function PlayHoverOut10() {
+    setOpacidade10(false)
+  }
 
   return (
     <Wrapper>
@@ -145,16 +152,20 @@ export default function VideoBoxesDs() {
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/wwywOmi1IIQ')} onMouseEnter={PlayHover6} onMouseLeave={PlayHoverOut6}>
-          <Video style={{ opacity: opacidade6 ? '75%' : '100%' }} src='./img/turma.png' />
+        <LinkVideo onMouseEnter={PlayHover6} onMouseLeave={PlayHoverOut6}>
+          <a href='https://www.instagram.com/turmadoclic/' target='_blank'>
+            <Video style={{ opacity: opacidade6 ? '75%' : '100%' }} src='./img/turma.png' />
+          </a>
           <TextoImg>
-            <img style={{ opacity: opacidade6 ? '1' : '0' }} src='./img/play-button.png' />
-            {/* <p style={{ opacity: opacidade6 ? '1' : '0' }} className='texto'>Turma do Clic</p> */}
+            <a href='https://www.instagram.com/turmadoclic/' target='_blank'>
+              <img style={{ opacity: opacidade6 ? '1' : '0' }} src='./img/seta.png' />
+              {/* <p style={{ opacity: opacidade3 ? '1' : '0' }} className='texto'>Despacha-te!</p> */}
+            </a>
           </TextoImg>
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/wwywOmi1IIQ')} onMouseEnter={PlayHover7} onMouseLeave={PlayHoverOut7}>
+        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/SoPg4kjgcr4')} onMouseEnter={PlayHover7} onMouseLeave={PlayHoverOut7}>
           <Video style={{ opacity: opacidade7 ? '75%' : '100%' }} src='./img/mulheres-cesta2.png' />
           <TextoImg>
             <img style={{ opacity: opacidade7 ? '1' : '0' }} src='./img/play-button.png' />
@@ -172,18 +183,24 @@ export default function VideoBoxesDs() {
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/wwywOmi1IIQ')} onMouseEnter={PlayHover9} onMouseLeave={PlayHoverOut9}>
-          <Video style={{ opacity: opacidade9 ? '75%' : '100%' }} src='./img/zago.png' />
+        <LinkVideo onMouseEnter={PlayHover9} onMouseLeave={PlayHoverOut9}>
+          <a href='https://www.instagram.com/adrianozagooficial/' target='_blank'>
+            <Video style={{ opacity: opacidade9 ? '75%' : '100%' }} src='./img/zago.png' />
+          </a>
           <TextoImg>
-            <img style={{ opacity: opacidade9 ? '1' : '0' }} src='./img/play-button.png' />
-            {/* <p style={{ opacity: opacidade9 ? '1' : '0' }} className='texto'>Zago</p> */}
+            <a href='https://www.instagram.com/adrianozagooficial/' target='_blank'>
+              <img style={{ opacity: opacidade9 ? '1' : '0' }} src='./img/seta.png' />
+              {/* <p style={{ opacity: opacidade3 ? '1' : '0' }} className='texto'>Despacha-te!</p> */}
+            </a>
           </TextoImg>
         </LinkVideo>
       </div>
       <div className='geral'>
-        <LinkVideo>
-          <Video className="ph" style={{cursor: "default"}} src='./img/whiteplaceholder.png' />
+        <LinkVideo onClick={() => OpenPopUp('https://www.youtube.com/embed/GvxhVohTjSk')} onMouseEnter={PlayHover10} onMouseLeave={PlayHoverOut10}>
+          <Video style={{ opacity: opacidade10 ? '75%' : '100%' }} src='./img/forca1.png' />
           <TextoImg>
+            <img style={{ opacity: opacidade10 ? '1' : '0' }} src='./img/play-button.png' />
+            {/* <p style={{ opacity: opacidade7 ? '1' : '0' }} className='texto'>Mulheres à Cesta</p> */}
           </TextoImg>
         </LinkVideo>
       </div>
